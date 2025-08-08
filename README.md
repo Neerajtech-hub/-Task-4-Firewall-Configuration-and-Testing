@@ -104,14 +104,6 @@ Opened Windows Security → Firewall & network protection → Advanced settings.
 
 ---
 
-3. Screenshots Taken
-
-File: (Add your Windows screenshot filenames here)
-
-
-
----
-
 Summary
 
 Linux: Configured UFW & iptables to block Telnet (Port 23), allow SSH (Port 22), verified rules, and saved outputs/screenshots.
@@ -152,4 +144,5 @@ Files for Submission
 ---
 
 Prepared by: Neeraj Kumar
+
 Date: August 2025
