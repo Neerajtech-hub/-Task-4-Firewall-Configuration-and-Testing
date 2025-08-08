@@ -1,0 +1,14 @@
+Status: active
+Logging: on (low)
+Default: deny (incoming), allow (outgoing), disabled (routed)
+New profiles: skip
+
+To                         Action      From
+--                         ------      ----
+22/tcp (OpenSSH)           ALLOW IN    Anywhere                  
+22                         ALLOW IN    Anywhere                  
+23/tcp                     DENY IN     Anywhere                   # Block Telnet test
+22/tcp (OpenSSH (v6))      ALLOW IN    Anywhere (v6)             
+22 (v6)                    ALLOW IN    Anywhere (v6)             
+23/tcp (v6)                DENY IN     Anywhere (v6)              # Block Telnet test
+
